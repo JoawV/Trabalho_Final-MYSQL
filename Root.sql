@@ -306,11 +306,11 @@ drop user pelé@localhost;
 drop user mexicano@localhost;
 drop user marta@localhost;
 
-grant all on Exercicios.atual_campeão to pelé@localhost; /*Permite o usuário "Pelé" inserir modificar e visualizar a View "atual_campeão"*/
-grant all on Exercicios.maior_campeão to pelé@localhost; /*Permite o usuário "Pelé" inserir modificar e visualizar a View "maior_campeão"*/
-grant all on Exercicios.nunca_ganhou to pelé@localhost; /*Permite o usuário "Pelé" inserir modificar e visualizar a View "nunca_ganhou"*/
-grant all on Exercicios.vice_campeão to pelé@localhost; /*Permite o usuário "Pelé" inserir modificar e visualizar a View "vice_campeão"*/
-grant all on Exercicios.ultimo_vice_campeão to pelé@localhost; /*Permite o usuário "Pelé" inserir modificar e visualizar a View "ultimo_vice_campeão"*/
+grant all on Exercicios.atual_campeão to pelé@localhost; /*Permite o usuário "Pelé" ter acesso a View "atual_campeão"*/
+grant all on Exercicios.maior_campeão to pelé@localhost; /*Permite o usuário "Pelé" ter acesso a View "maior_campeão"*/
+grant all on Exercicios.nunca_ganhou to pelé@localhost; /*Permite o usuário "Pelé" ter acesso a View "nunca_ganhou"*/
+grant all on Exercicios.vice_campeão to pelé@localhost; /*Permite o usuário "Pelé" ter acesso a View "vice_campeão"*/
+grant all on Exercicios.ultimo_vice_campeão to pelé@localhost; /*Permite o usuário "Pelé" ter acesso a View "ultimo_vice_campeão"*/
 
 grant insert on Exercicios.times to mexicano@localhost; /*Permite o usuário "Mexicano" inserir dados á tabela Times*/
 grant insert on Exercicios.jogadores to mexicano@localhost; /*Permite o usuário "Mexicano" inserir dados á tabela Jogadores*/
